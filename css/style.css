@@ -29,7 +29,11 @@ h1{
     color: red;
 }
 
+.video{
+    background-color: #262335;
+}
+
 #footer{
     box-sizing: border-box;
-    color: black;
+    color: white;
 }
