@@ -3,7 +3,7 @@
 }
 
 #hero{
-background-image: url('/img/lighter.webp');
+background-image: url('../img/lighter.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
