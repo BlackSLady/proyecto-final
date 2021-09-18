@@ -1,0 +1,35 @@
+#header{
+    background-blend-mode: initial;
+}
+
+#hero{
+background-image: url('/img/lighter.webp');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+#caracteristicas-2{
+    background-color: #262335;
+    color: white;
+}
+.logo{
+align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    padding-right: 50px;
+    background-position: center;
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 6rem;
+    color: red;
+}
+
+#footer{
+    box-sizing: border-box;
+    color: black;
+}
