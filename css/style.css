@@ -3,7 +3,7 @@
 }
 
 #hero{
-background-image: url('../img/lighter.webp');
+background-image: url('../img/mass.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -22,11 +22,39 @@ align-items: center;
     background-position: center;
 }
 
+.card{
+    border-radius: 10px;
+    box-shadow: 1px  4px 0 #00000036;
+}
 
 h1{
     font-weight: 900;
     font-size: 6rem;
     color: red;
+}
+
+nav-link{
+    background-color: rgb(29, 14, 40);
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+.live{
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-shadow: 
+    0 0 4px red, 
+    0 0 8px red, 
+    0 0 12px rgb(255, 162, 219),
+    0 0 14px rgb(255, 162, 219);
+    animation: flicker 1.5s infinite alternate;
+}
+
+.b-hope{
+    font-size: 5.6rem;
+    font-weight: 900;
 }
 
 .video{
