@@ -37,13 +37,23 @@ h2{
     font-weight: 300;
 }
 
+
 #fotos{
     background-color: #262335;
     color: white;  
 }
 
+.mas{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
 .redes{
     filter: invert(100%);
+    text-decoration: none;
+    image-resolution: 100%;
 }
 
 .live{
@@ -60,6 +70,7 @@ h2{
 .b-hope{
     font-size: 5rem;
     font-weight: 900;
+    color: red;
 }
 
 .video{
@@ -70,3 +81,69 @@ h2{
     box-sizing: border-box;
     color: white;
 }
+.firma{
+    font-size: 70%;
+}
+
+/* DISCOGRAFIA */
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: white;
+    font-family: 'Rampart One', cursive;
+    font-family: 'Monoton', cursive;
+}
+
+#discografia{
+    background-color: rgb(29, 14, 40);
+}
+
+
+#botones{
+    background-color: #262335;
+}
+.boton-negro{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#album{
+    background-color: #262335;
+}
+
+#single{
+    background-color: #262335;
+}
+
+.img {
+    width: 300px;
+    height: auto;
+    position: relative; 
+}  
+  
+  .img p {
+    margin: auto;  
+    color: #fff;    
+    line-height: 300px; /* igual height de la imagen */
+    
+    background: rgba(0, 0, 0, 0.733);
+    transition: opacity .4s linear;
+    cursor: pointer;  
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .img:hover p {
+    opacity: .75;  
+  }
